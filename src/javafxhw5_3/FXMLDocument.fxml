@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="pane" fx:id="pane" prefHeight="562.0" prefWidth="574.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxhw5_3.FXMLDocumentController">
+   <children>
+      <ImageView fx:id="bgImage" fitHeight="430.0" fitWidth="593.0" layoutX="0.3" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Downloads/LunarLander/lunar_surface.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="lunarIV" fitHeight="83.0" fitWidth="111.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Downloads/LunarLander/lunar_lander.png" />
+         </image>
+      </ImageView>
+      <Text fill="RED" layoutX="21.0" layoutY="487.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Press key s to start lifiting off and press key r to re-start again.">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Text>
+      <Text fill="RED" layoutX="21.0" layoutY="509.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Move the mouse and click to move the lunar lander.">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Text>
+      <Text fill="RED" layoutX="21.0" layoutY="531.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Move the mouse over the lunar lander to glow it.">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
